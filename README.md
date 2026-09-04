@@ -33,3 +33,17 @@ API-Project-ED/
 ├── src/test/java/
 ├── files/
 └── build.gradle
+```
+
+## Running the Project
+
+```bash
+cd API-Project-ED
+gradlew.bat run
+```
+
+## Running Tests
+
+```bash
+gradlew.bat test
+```
