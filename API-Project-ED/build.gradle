@@ -1,0 +1,42 @@
+plugins {
+    id 'java'
+    id 'jacoco'
+    id 'application'
+}
+
+group = 'org.example'
+version = '1.0-SNAPSHOT'
+
+application {
+    mainClass = 'Game.gameCore.Play'
+}
+
+tasks.named('run') {
+    standardInput = System.in
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.10.2'
+    testImplementation 'org.junit.platform:junit-platform-launcher:1.10.2'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.10.2'
+    implementation files('libs/ED-Project-1.0-SNAPSHOT.jar')
+    implementation files('libs/json-simple-1.1.1.jar')
+}
+
+test {
+    useJUnitPlatform()
+    testLogging {
+        events "passed", "skipped", "failed", "standardOut", "standardError"
+    }
+    reports.html.required = true
+    finalizedBy jacocoTestReport
+}
+
+tasks.withType(Javadoc) {
+    failOnError = false
+}
+build.dependsOn javadoc

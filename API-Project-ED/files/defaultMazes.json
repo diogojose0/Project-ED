@@ -1,0 +1,220 @@
+[
+  {
+    "maze_name": "The Gloomspire",
+    "divisions": [
+      {"name": "Gate of Echoes",
+        "hasTreasure": false,
+        "isEntryPoint": true
+      },
+      {
+        "name": "Crossroads Watchpoint",
+        "hasTreasure": false,
+        "isEntryPoint": false,
+        "levers": [
+          {
+            "target": "wrong"
+          },
+          {
+            "target": "right"
+          },
+          {
+            "target": "wrong"
+          }
+        ]
+      },
+      {"name": "Treasurecore Vault",
+        "hasTreasure": false,
+        "isEntryPoint": false
+      },
+      {"name": "Shadowbend Hall",
+        "hasTreasure": false,
+        "isEntryPoint": false
+      },
+      {"name": "Iron Passage Nexus",
+        "hasTreasure": false,
+        "isEntryPoint": false,
+        "levers": [
+          {
+            "target": "wrong"
+          },
+          {
+            "target": "wrong"
+          },
+          {
+            "target": "right"
+          }
+        ]
+      },
+      {"name": "Riftwalk Chamber",
+        "hasTreasure": false,
+        "isEntryPoint": false
+      },
+      {"name": "Sentinel Junction",
+        "hasTreasure": false,
+        "isEntryPoint": false,
+        "levers": [
+          {
+            "target": "wrong"
+          },
+          {
+            "target": "right"
+          },
+          {
+            "target": "wrong"
+          }
+        ]
+      },
+      {"name": "Outerworld Entry",
+        "hasTreasure": false,
+        "isEntryPoint": true
+      },
+      {"name": "Silent Breach Gate",
+        "hasTreasure": false,
+        "isEntryPoint": true
+      },
+      {"name": "Hollow Fang Gate",
+        "hasTreasure": false,
+        "isEntryPoint": true
+      },
+      {"name": "Crystal Pulse Atrium",
+        "hasTreasure": false,
+        "isEntryPoint": false,
+        "levers": [
+          {
+            "target": "right"
+          },
+          {
+            "target": "wrong"
+          },
+          {
+            "target": "wrong"
+          }
+        ]
+      },
+      {"name": "Ancient Passage Entry",
+        "hasTreasure": false,
+        "isEntryPoint": true
+      },
+      {"name": "Starforge Crossing",
+        "hasTreasure": true,
+        "isEntryPoint": false
+      },
+      {"name": "Mistveil Entrance",
+        "hasTreasure": false,
+        "isEntryPoint": false
+      }
+    ],
+    "corridors": [
+      { "from": "Gate of Echoes", "to": "Crossroads Watchpoint", "name": "Corridor of Silent Steps" },
+      { "from": "Gate of Echoes", "to": "Shadowbend Hall", "name": "Old Stone Run" },
+      { "from": "Crossroads Watchpoint", "to": "Treasurecore Vault", "name": "Twin Lantern Path" },
+      { "from": "Treasurecore Vault", "to": "Shadowbend Hall", "name": "Runebound Walk" },
+      { "from": "Treasurecore Vault", "to": "Crystal Pulse Atrium", "name": "Vein of Golden Echoes" },
+      { "from": "Shadowbend Hall", "to": "Iron Passage Nexus", "name": "Dustspire Way" },
+      { "from": "Iron Passage Nexus", "to": "Riftwalk Chamber", "name": "Ironbind Connector" },
+      { "from": "Riftwalk Chamber", "to": "Outerworld Entry", "name": "Outer Drift Tunnel" },
+      { "from": "Riftwalk Chamber", "to": "Sentinel Junction", "name": "Crackling Spine Route" },
+      { "from": "Sentinel Junction", "to": "Silent Breach Gate", "name": "Whisperfall Descent" },
+      { "from": "Sentinel Junction", "to": "Hollow Fang Gate", "name": "Guardbreaker Line" },
+      { "from": "Sentinel Junction", "to": "Crystal Pulse Atrium", "name": "Resonant Crosslink" },
+      { "from": "Outerworld Entry", "to": "Mistveil Entrance", "name": "Mist Channel" },
+      { "from": "Hollow Fang Gate", "to": "Starforge Crossing", "name": "Worn Gate Trace" },
+      { "from": "Crystal Pulse Atrium", "to": "Starforge Crossing", "name": "Shattered Star Path" },
+      { "from": "Crystal Pulse Atrium", "to": "Ancient Passage Entry", "name": "Echo Coil Passage" },
+      { "from": "Ancient Passage Entry", "to": "Starforge Crossing", "name": "Ancient Root Pass" },
+      { "from": "Starforge Crossing", "to": "Mistveil Entrance", "name": "Moonlit Traverse" },
+      { "from": "Mistveil Entrance", "to": "Silent Breach Gate", "name": "Loop of Fading Steps" },
+      { "from": "Mistveil Entrance", "to": "Hollow Fang Gate", "name": "Fogbound Curve" }
+    ]
+  },
+  {
+    "maze_name": "Shadowspire Depths",
+    "divisions": [
+      {"name": "Obsidian Gate",
+        "hasTreasure": false,
+        "isEntryPoint": true
+      },
+      {"name": "Echoing Hall",
+        "hasTreasure": false,
+        "isEntryPoint": false,
+        "levers": [
+          {
+            "target": "right"
+          },
+          {
+            "target": "wrong"
+          },
+          {
+            "target": "wrong"
+          }
+        ]
+      },
+      {"name": "Vault of Whispers",
+        "hasTreasure": true,
+        "isEntryPoint": false
+      },
+      {"name": "Crystal Chamber",
+        "hasTreasure": false,
+        "isEntryPoint": false
+      },
+      {"name": "Iron Bastion",
+        "hasTreasure": false,
+        "isEntryPoint": false,
+        "levers": [
+          {
+            "target": "right"
+          },
+          {
+            "target": "wrong"
+          },
+          {
+            "target": "wrong"
+          }
+        ]
+      },
+      {"name": "Silent Spire",
+        "hasTreasure": false,
+        "isEntryPoint": false
+      },
+      {"name": "Twilight Passage",
+        "hasTreasure": false,
+        "isEntryPoint": true
+      },
+      {"name": "Moonlit Atrium",
+        "hasTreasure": false,
+        "isEntryPoint": false
+      },
+      {"name": "Starlight Junction",
+        "hasTreasure": false,
+        "isEntryPoint": true
+      },
+      {"name": "Deepforge Hall",
+        "hasTreasure": false,
+        "isEntryPoint": false,
+        "levers": [
+          {
+            "target": "right"
+          },
+          {
+            "target": "wrong"
+          },
+          {
+            "target": "wrong"
+          }
+        ]
+      }
+    ],
+    "corridors": [
+      { "from": "Obsidian Gate", "to": "Echoing Hall", "name": "Hall of Echoes" },
+      { "from": "Obsidian Gate", "to": "Vault of Whispers", "name": "Whispering Path" },
+      { "from": "Echoing Hall", "to": "Crystal Chamber", "name": "Crystal Passage" },
+      { "from": "Vault of Whispers", "to": "Iron Bastion", "name": "Iron Echoes" },
+      { "from": "Crystal Chamber", "to": "Silent Spire", "name": "Silent Corridor" },
+      { "from": "Iron Bastion", "to": "Twilight Passage", "name": "Twilight Bridge" },
+      { "from": "Silent Spire", "to": "Moonlit Atrium", "name": "Moonlit Hall" },
+      { "from": "Twilight Passage", "to": "Starlight Junction", "name": "Starlight Path" },
+      { "from": "Moonlit Atrium", "to": "Deepforge Hall", "name": "Deepforge Way" },
+      { "from": "Starlight Junction", "to": "Deepforge Hall", "name": "Final Passage" }
+    ]
+  }
+]

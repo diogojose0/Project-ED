@@ -1,0 +1,87 @@
+[
+    {
+        "enigma": "What is the value of 8 + 7?",
+        "answers": ["13", "14", "15", "16"],
+        "answer": 3
+    },
+    {
+        "enigma": "If today is Wednesday, what day will it be the day after tomorrow?",
+        "answers": ["Thursday", "Friday", "Saturday", "Sunday"],
+        "answer": 2
+    },
+    {
+        "enigma": "Which of these animals is a mammal?",
+        "answers": ["Snake", "Dolphin", "Turtle", "Frog"],
+        "answer": 2
+    },
+    {
+        "enigma": "How many sides does an octagon have?",
+        "answers": ["6", "7", "8", "9"],
+        "answer": 3
+    },
+    {
+        "enigma": "Which number completes the sequence? 3, 6, 9, 12, __",
+        "answers": ["14", "15", "16", "18"],
+        "answer": 2
+    },
+    {
+        "enigma": "Which planet is known as the 'Red Planet'?",
+        "answers": ["Mercury", "Venus", "Mars", "Jupiter"],
+        "answer": 3
+    },
+    {
+        "enigma": "What is the largest ocean in the world?",
+        "answers": ["Atlantic", "Indian", "Pacific", "Arctic"],
+        "answer": 3
+    },
+    {
+        "enigma": "What is 9 × 6?",
+        "answers": ["42", "48", "54", "60"],
+        "answer": 3
+    },
+    {
+        "enigma": "If the clock shows 15:00, how much time is left until 21:00?",
+        "answers": ["3h", "4h", "5h", "6h"],
+        "answer": 4
+    },
+    {
+        "enigma": "Who painted the Mona Lisa?",
+        "answers": ["Van Gogh", "Picasso", "Da Vinci", "Michelangelo"],
+        "answer": 3
+    },
+    {
+        "enigma": "Which of these is a country?",
+        "answers": ["Africa", "Brazil", "Europe", "Asia"],
+        "answer": 2
+    },
+    {
+        "enigma": "What is the square root of 81?",
+        "answers": ["7", "8", "9", "10"],
+        "answer": 3
+    },
+    {
+        "enigma": "How many seconds are in one minute?",
+        "answers": ["30", "45", "60", "90"],
+        "answer": 3
+    },
+    {
+        "enigma": "Which metal is liquid at room temperature?",
+        "answers": ["Gold", "Mercury", "Copper", "Iron"],
+        "answer": 2
+    },
+    {
+        "enigma": "Whats the color of an orange?",
+        "answers": ["Orange", "Yellow", "Black", "Green"],
+        "answer": 1
+    },
+    {
+        "enigma": "Which is the largest continent?",
+        "answers": ["Europe", "Africa", "Asia", "America"],
+        "answer": 3
+    },
+    {
+        "enigma": "What is 5²?",
+        "answers": ["10", "15", "20", "25"],
+        "answer": 4
+    }
+]
